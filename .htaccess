@@ -1,0 +1,12 @@
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule .* - [L]
+
+RewriteRule ^/?[\?(.*)]?$ ?$1 [QSA,PT,L]
+RewriteRule ^/?([a-zA-Z_]+)/?[\?(.*)]?$ /?s=$1&$2 [QSA,PT,L]
+RewriteRule ^/?([a-zA-Z_]+)/([a-zA-Z_]+)/?[\?(.*)]?$ /?s=$1&ss=$2&$3 [QSA,PT,L]
+RewriteRule ^/?([a-zA-Z_/]+)[\?(.*)]?$ /?sss=$1&$2 [QSA,PT,L]

@@ -1,0 +1,27 @@
+RewriteEngine on
+
+RewriteBase /
+
+RewriteRule (^)/ ^
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/(.*)\.(.*)
+RewriteCond %{REQUEST_URI} ^/([a-z]+)/([a-z]+)/([a-z]+)  [NC]
+RewriteRule (.*) index.php?q=%1&p=%2&r=%3
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/(.*)\.(.*)
+RewriteCond %{REQUEST_URI} ^/([a-z]+)/([a-z]+)  [NC]
+RewriteRule (.*) index.php?q=%1&p=%2
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/(.*)\.(.*)
+RewriteCond %{REQUEST_URI} ^/([a-z]*)  [NC]
+RewriteRule (.*) index.php?q=%1
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule (.*) /err/

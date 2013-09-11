@@ -1,0 +1,31 @@
+﻿@font-face {
+    font-family: "WOL_SL";
+    font-style: normal;
+    font-weight: 200;
+    src: url("../fonts/WOL_SL.eot");
+    src: url("../fonts/WOL_SL.eot?#iefix") format("eot"), url("../fonts/WOL_SL.woff") format("woff"), url("../fonts/WOL_SL.ttf") format("truetype"), url("../fonts/WOL_SL.svg#web") format("svg");
+}
+
+@font-face {
+    font-family: "WOL_Reg";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/WOL_Reg.eot");
+    src: url("../fonts/WOL_Reg.eot?#iefix") format("eot"), url("../fonts/WOL_Reg.woff") format("woff"), url("../fonts/WOL_Reg.ttf") format("truetype"), url("../fonts/WOL_Reg.svg#web") format("svg");
+}
+
+@font-face {
+    font-family: "WOL_SB";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/WOL_SB.eot");
+    src: url("../fonts/WOL_SB.eot?#iefix") format("eot"), url("../fonts/WOL_SB.woff") format("woff"), url("../fonts/WOL_SB.ttf") format("truetype"), url("../fonts/WOL_SB.svg#web") format("svg");
+}
+
+@font-face {
+    font-family: "WOL_Bold";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../fonts/WOL_Bold.eot");
+    src: url("../fonts/WOL_Bold.eot?#iefix") format("eot"), url("../fonts/WOL_Bold.woff") format("woff"), url("../fonts/WOL_Bold.ttf") format("truetype"), url("../fonts/WOL_Bold.svg#web") format("svg");
+}

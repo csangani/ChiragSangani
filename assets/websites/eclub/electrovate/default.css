@@ -1,0 +1,164 @@
+﻿body, html {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	background: #666666 url('back.png') no-repeat scroll center 0;
+}
+#headerbar {
+	height: 24px;
+	background: #333333;
+	border-bottom: 1px #888888 solid;
+}
+#footer {
+	height: 100px;
+	background: #333333;
+	border-top: 1px #888888 solid;
+	margin-top: 20px;
+}
+#headerbarlink {
+	width: 900px;
+	margin: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-small;
+}
+#headerbarlink a.link, a.link:visited, a.link:hover {
+	color: #dddddd;
+	text-decoration: none;
+	padding-top: 6px;
+	display: block;
+	width: auto;
+}
+#headerbarlink a.link:hover {
+	color: #ffffff;
+}
+#body {
+	margin: 0 auto 0 auto;
+	width: 900px;
+}
+#header {
+	height: 144px;
+	background-image: url('logo.png');
+}
+#headerlogoeclub {
+	width: 290px;
+	height: 144px;
+	display: block;
+	float: left;
+}
+#headerlogoelectrovate {
+	width: 610px;
+	height: 144px;
+	display: block;
+	float: left;
+}
+#content {
+	margin-top: 20px;
+	background: #333333;
+	border: 1px #999999 solid;
+	padding: 20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #ffffff;
+}
+#content a, a:visited {
+	color: #dddddd;
+	text-decoration: none;
+}
+#content a:hover {
+	color: #ffffff;
+}
+#dare {
+	background: url('dare.png') no-repeat 50% 50%;
+	height: 37px;
+}
+#someideas {
+	background-image: url('someideas.png');
+	height: 25px;
+	float: left;
+	width: 138px;
+	margin-right: 20px;
+}
+#someideas:hover {
+	background-position: 0 -25px;
+}
+#schedule {
+	background-image: url('schedule.png');
+	height: 25px;
+	float: left;
+	width: 115px;
+	margin-right: 20px;
+}
+#schedule:hover {
+	background-position: 0 -25px;
+}
+#rules {
+	background-image: url('rules.png');
+	height: 25px;
+	float: left;
+	width: 79px;
+	margin-right: 20px;
+}
+#rules:hover {
+	background-position: 0 -25px;
+}
+#judcrit {
+	background-image: url('judcrit.png');
+	height: 25px;
+	float: left;
+	width: 208px;
+	margin-right: 20px;
+}
+#judcrit:hover {
+	background-position: 0 -25px;
+}
+#contacts {
+	background-image: url('contacts.png');
+	height: 25px;
+	float: left;
+	width: 121px;
+}
+#contacts:hover {
+	background-position: 0 -25px;
+}
+#cell {
+	padding: 10px;
+}
+#cell-l-l {
+	width: 70%;
+	float: left;
+	padding: 5px;
+}
+#cell-l-r {
+	float: left;
+	width: 25%;
+	padding: 5px;
+}
+#cell-r-l {
+	width: 25%;
+	float: left;
+	padding: 5px;
+}
+#cell-r-r {
+	float: left;
+	width: 70%;
+	padding: 5px;
+}
+#navbar {
+	width: 741px;
+	margin: auto;
+}
+#navlink {
+	display: block;
+	height: 25px;
+}
+#copyright {
+	width: 528px;
+	background: url('footer.png') no-repeat;
+	margin: 10px auto 0 auto;
+	height:20px;
+}
+
+#contactcell{
+	float:left;
+	width:30%;
+	padding: 10px;
+	text-align:center
+}

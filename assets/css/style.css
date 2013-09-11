@@ -1,0 +1,650 @@
+/* Overrides */
+body {
+    margin: 0;
+    padding: 0;
+    background: #d0d0d0;
+    color: #3a3a3a;
+    font-family: 'WOL_Reg','Segoe UI',Tahoma,Helvetica,sans-serif;
+}
+
+a {
+    color: #4a4a4a;
+}
+
+    a:hover {
+        color: #1a1a1a;
+    }
+
+/* Font styles */
+.SemiLight {
+    font-weight: 200;
+    font-family: 'WOL_SL','Segoe UI Semilight','Segoe UI',Tahoma,Helvetica,sans-serif;
+}
+
+.Light {
+    font-weight: 100;
+    font-family: 'WOL_SL','Segoe UI Light','Segoe UI',Tahoma,Helvetica,sans-serif;
+}
+
+.Regular {
+    font-weight: normal;
+    font-family: 'WOL_Reg','Segoe UI',Tahoma,Helvetica,sans-serif;
+}
+
+.SemiBold {
+    font-weight: 600;
+    font-family: 'WOL_SB','Segoe UI Semibold','Segoe UI',Tahoma,Helvetica,sans-serif;
+}
+
+.Bold {
+    font-weight: bold;
+    font-family: 'WOL_Bold','Segoe UI Bold','Segoe UI',Tahoma,Helvetica,sans-serif;
+}
+
+.AllCaps {
+    text-transform: uppercase;
+}
+
+.Code {
+    font-family: "Consolas", "Courier New", monospace;
+    padding: 10px;
+    float: left;
+}
+
+.XXXL {
+    -moz-font-feature-settings: "kern" 1;
+    -webkit-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-size: 106px;
+    line-height: 106px;
+}
+
+@media screen and (min-width:56.25em) and (max-width:62.86875em) {
+    .XXXL {
+        font-size: 100px;
+        line-height: 100px;
+    }
+}
+
+@media screen and (min-width:47.5em) and (max-width:56.24375em) {
+    .XXXL {
+        font-size: 95px;
+        line-height: 95px;
+    }
+}
+
+@media screen and (min-width:31.875em) and (max-width:47.49375em) {
+    .XXXL {
+        font-size: 85px;
+        line-height: 85px;
+    }
+}
+
+@media screen and (max-width:31.86875em) {
+    .XXXL {
+        font-size: 74px;
+        line-height: 74px;
+    }
+}
+
+.XXL {
+    -moz-font-feature-settings: "kern" 1;
+    -webkit-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-size: 66px;
+    line-height: 66px;
+}
+
+@media screen and (min-width:56.25em) and (max-width:62.86875em) {
+    .XXL {
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (min-width:47.5em) and (max-width:56.24375em) {
+    .XXL {
+        font-size: 55px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (min-width:31.875em) and (max-width:47.49375em) {
+    .XXL {
+        font-size: 45px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width:31.86875em) {
+    .XXL {
+        font-size: 34px;
+        line-height: 34px;
+    }
+}
+
+.XL {
+    -moz-font-feature-settings: "kern" 1;
+    -webkit-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+@media screen and (min-width:31.875em) and (max-width:47.49375em) {
+    .XL {
+        font-size: 35px;
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width:31.86875em) {
+    .XL {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+.Intl {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+@media (min-width:31.875em) and (max-width:47.49375em) {
+    .Intl {
+        font-size: 35px;
+        line-height: 45px;
+    }
+}
+
+@media (max-width:31.86875em) {
+    .Intl {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+.L {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.M {
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.S {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.XS {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.XXS {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.XXXS {
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.Center {
+    text-align: center;
+}
+
+.Button {
+    display: inline-block;
+    margin: 1em 0 1em 0;
+    padding: 0.5em 1em 0.6em 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.White {
+    color: #fff;
+}
+
+.Cream {
+    color: #F2D694;
+}
+
+.CreamBackground {
+    background-color: #F2D694;
+}
+
+.CrimsonBackground {
+    background-color: #b20838;
+    color: #fff;
+}
+
+.Crimson {
+    color: #b20838;
+}
+
+.CrimsomBackground:hover, .CrimsonBackground a:hover, a.CrimsonBackground:hover {
+    color: #fff;
+}
+
+.CrimsonBackground a {
+    color: #eee;
+}
+
+.GreenBackground {
+    background-color: #44ff4c;
+    color: #454545;
+}
+
+    .GreenBackground:hover {
+        color: #454545;
+    }
+
+.OrangeBackground {
+    background-color: #eb3c00;
+    color: #fff;
+}
+
+    .OrangeBackground:hover {
+        color: #fff;
+    }
+
+.BlueBackground {
+    background-color: #00ccff;
+    color: #454545;
+}
+
+    .BlueBackground:hover {
+        color: #454545;
+    }
+
+.Purple {
+    color: #5e0087;
+}
+
+.PurpleBackground {
+    background-color: #5e0087;
+    color: #fff;
+}
+
+    .PurpleBackground:hover {
+        color: #fff;
+    }
+
+.WhiteBackground {
+    background-color: #fff;
+    color: #454545;
+}
+
+    .WhiteBackground:hover {
+        color: #454545;
+    }
+
+.YellowBackground {
+    background-color: #ffd800;
+    color: #454545;
+}
+
+    .YellowBackground:hover {
+        color: #454545;
+    }
+
+.DarkBackground {
+    background-color: #131313;
+    color: #cfcfcf;
+}
+
+    .DarkBackground:hover {
+        color: #cfcfcf;
+    }
+
+.LightGrayBackground {
+    background-color: #ececef;
+    color: #454545;
+}
+
+    .LightGrayBackground:hover {
+        color: #454545;
+    }
+
+.LightGray {
+    color: #ececef;
+}
+
+.DarkGrayBackground {
+    background-color: #454545;
+    color: #fff;
+}
+
+    .DarkGrayBackground:hover {
+        color: #fff;
+    }
+
+.DarkGray {
+    color: #454545;
+}
+
+.Four04Background {
+    background: #1173aa;
+    color: #ffffff;
+}
+
+    .Four04Background a {
+        text-decoration: none;
+        color: #ccc;
+    }
+
+        .Four04Background a:hover {
+            color: #fff;
+        }
+
+.MargueriteBackground {
+    background: url('../images/marguerite/background.png') no-repeat center center;
+    color: #fff;
+}
+
+.MargueriteButton {
+    background: #fff;
+    color: #990033;
+}
+
+a.White.Button:hover * {
+    color: #ffffff;
+}
+
+#MosaicWrapper {
+    width: 349px;
+    height: 197px;
+    background: yellow;
+}
+
+#CS5-HeaderWrapper {
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    width: 100%;
+}
+
+#CS5-Header {
+    width: 100%;
+    background: #1a1a1a;
+}
+
+@media (min-width:62.86em) and (max-height:48.11em) {
+    #CS5-Header {
+        position: relative;
+    }
+}
+
+#CS5-NavBar {
+    background: #1a1a1a;
+}
+
+#CS5-NavBarSecondary {
+    background: rgba(26,26,26,0.75);
+}
+
+.ContentWrapper {
+    margin: auto;
+    background-position: center center;
+    max-width: 100em;
+}
+
+.ContentImage {
+    display: inline-block;
+    max-width: 100%;
+    background: no-repeat center center;
+}
+
+#CS5-Footer {
+    border-top: 0.6em solid #44c4dd;
+    background: #1a1a1a;
+}
+
+/* Inner bodies */
+#CS5-HeaderBody, #CS5-NavBarBody, #CS5-NavBarSecondaryBody, #CS5-FeaturedBody, #CS5-RelatedBody, #CS5-FooterBody, #CS5-ContentBody, .Content {
+    margin: auto;
+    padding: 0 2em 0 2em;
+    max-width: 62.86em;
+}
+
+#CS5-HeaderBody {
+    color: #fff;
+}
+
+/* Header */
+#CS5-HeaderSpace {
+    padding-top: 5em;
+}
+
+#CS5-HeaderTitle {
+    display: inline-block;
+    float: left;
+    margin: 0.9em 0 0.35em 0;
+    color: #44c4dd;
+    text-decoration: none;
+}
+
+#CS5-HeaderButton {
+    display: block;
+    float: right;
+    margin: 1em 0 0 0;
+    width: 30px;
+    height: 40px;
+    background: url(../images/headerbutton.png) center center no-repeat;
+    cursor: pointer;
+}
+
+/* Nav Bar */
+#CS5-NavBarBar {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+    #CS5-NavBarBar li {
+        display: inline-block;
+        margin: 0;
+    }
+
+        #CS5-NavBarBar li a {
+            display: block;
+            padding: 0.3em 1.5em 0.3em 0;
+            color: #cfcfcf;
+            text-decoration: none;
+        }
+
+            #CS5-NavBarBar li a:hover {
+                color: #fff;
+            }
+
+@media (min-width:62.86em) {
+    #CS5-NavBarBar {
+        display: block !important;
+    }
+
+    #CS5-NavBarSecondaryBar {
+        display: block !important;
+    }
+
+    #CS5-HeaderButton {
+        display: none;
+    }
+}
+
+@media (max-width:62.86em) {
+    #CS5-HeaderSpace {
+        padding-top: 2.5em;
+    }
+
+    #CS5-NavBarBody {
+        padding: 0;
+    }
+
+    #CS5-NavBarBar li {
+        display: block;
+        border-bottom: 0.1em solid #1a1a1a;
+        background: #4a4a4a;
+    }
+
+        #CS5-NavBarBar li a {
+            padding: 0.3em 1.5em 0.3em 2.5em;
+        }
+
+    #CS5-NavBarBar {
+        display: none;
+    }
+}
+
+#CS5-NavBarSecondaryBar {
+    margin: 0;
+    padding: 0;
+    min-height: 1em;
+    width: 100%;
+}
+
+#CS5-NavBarSecondary li {
+    display: inline-block;
+    margin: 0;
+}
+
+    #CS5-NavBarSecondary li * {
+        display: block;
+        padding: 0.5em 1.5em 0.8em 0;
+        color: #afafaf;
+        text-decoration: none;
+    }
+
+    #CS5-NavBarSecondary li a:hover {
+        color: #efefef;
+    }
+
+@media (max-width:62.86em) {
+    #CS5-NavBarSecondary li {
+        display: block;
+    }
+
+    #CS5-NavBarSecondaryBar {
+        display: none;
+    }
+}
+
+.Split {
+    margin: 3em 0 3em 0;
+    width: 50%;
+}
+
+.Full {
+    padding: 3em 0 3em 0;
+    text-align: center;
+}
+
+.Split, .Full {
+    overflow: hidden;
+}
+
+.Left {
+    float:left
+}
+
+.Right {
+    float:right
+}
+
+@media (max-width:62.86em) {
+    .Left, .Right {
+        float:left;
+    }
+}
+
+.DLMC {
+    text-align:left;
+}
+
+.DRMC {
+    text-align:right;
+}
+
+@media (max-width:62.86em) {
+    .DLMC, .DRMC {
+        text-align:center;
+    }
+}
+.ContentTop {
+    padding-top: 1em;
+}
+
+@media (min-width:62.86em) {
+    .Quarter {
+        width: 24.5%;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+}
+
+@media (max-width:62.86em) {
+    .Split {
+        width: 100%;
+        margin: 1.5em 0 1.5em 0;
+    }
+
+    .DesktopOnly {
+        display: none !important;
+    }
+
+    .Split, .Full {
+        text-align: center;
+    }
+
+    .ContentTop {
+        padding-top: 3em;
+    }
+}
+
+#CS5-Footer-Copyright {
+    display:inline-block;
+    vertical-align:middle;
+    padding: 1em 0 1em 0;
+    color: #fff;
+    text-align: right;
+}
+
+#CS5-Footer-Menu {
+    display:inline-block;
+    margin: 1em 1.5em 0 1.5em;
+    padding:0;
+    vertical-align:middle;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+    #CS5-Footer-Menu li {
+        display: inline-block;
+    }
+
+        #CS5-Footer-Menu li a {
+            display: block;
+            padding: 0.3em 0.75em 0.3em 0.75em;
+            color: #afafaf;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+            #CS5-Footer-Menu li a:hover {
+                color: #efefef;
+            }
+
+.selected {
+    color: #44c4dd !important;
+}
+
+.statcounter {
+    visibility: hidden;
+}

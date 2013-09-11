@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+<script src="js/jquery.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(window).resize(function(){
+		$('#backimg').css("width",function(){
+			if (($('#backimg').height() > $(window).height()) & ($('#backimg').width() > $(window).width()))
+				return $(window).width();
+			else if($('#backimg').height() > $(window).height())
+				return $(window).width();
+			else if($('#backimg').width() > $(window).width())
+				return $('#backimg').width();
+			else
+				return $(window).width();
+		});
+	});
+	$(document).ready(function(){
+		$('#backimg').css("width",function(){
+			if (($('#backimg').height() > $(window).height()) & ($('#backimg').width() > $(window).width()))
+				return $(window).width();
+			else if($('#backimg').height() > $(window).height())
+				return $(window).width();
+			else if($('#backimg').width() > $(window).width())
+				return $('#backimg').width();
+			else
+				return $(window).width();
+		});
+	});
+
+});
+</script>
+<style type="text/css">
+body {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+#back {
+	position: fixed;
+	z-index: 1;
+}
+#body {
+	position: relative;
+	z-index: 2;
+	width: 970px;
+	margin: auto;
+	padding-top: 10px;
+}
+#header {
+	background: url('images/header.png');
+}
+#header-t {
+	background: url('images/header-t.png') repeat-x;
+}
+#header-l {
+	background: url('images/header-l.png') repeat-y;
+	padding: 30px;
+}
+#header-r {
+	background: url('images/header-r.png') repeat-y 966px;
+}
+#logo {
+	background: url('images/logo.png');
+	display: block;
+	float: left;
+	width: 208px;
+	height: 48px;
+}
+#logolink {
+	display: block;
+	width: 100%;
+	height: 48px;
+}
+#menubar {
+	display: block;
+	float: left;
+	padding: 16px;
+}
+div.clear {
+	clear: both;
+}
+div.menublock {
+	margin: 0 0 0 20px;
+	height: 16px;
+	float: left;
+}
+#home {
+	width: 53px;
+	background: url('images/home.png');
+}
+#database {
+	width: 89px;
+	background: url('images/database.png');
+}
+#projects {
+	width: 91px;
+	background: url('images/projects.png');
+}
+#gallery {
+	width: 80px;
+	background: url('images/gallery.png');
+}
+#links {
+	width: 50px;
+	background: url('images/links.png');
+}
+#contact {
+	width: 84px;
+	background: url('images/contact.png');
+}
+a.menulink{
+	display:block;
+	height:16px;
+	width:100%;
+}
+</style>
+</head>
+
+<body>
+
+<div id="back">
+	<img id="backimg" alt="" src="images/back.jpg" /></div>
+<div id="body">
+	<div id="header">
+		<div id="header-t">
+			<div id="header-r">
+				<div id="header-l">
+					<div id="logo">
+						<a id="logolink" href="./"></a></div>
+					<div id="menubar">
+						<div id="home" class="menublock"><a class="menulink" href="./"></a>
+						</div>
+						<div id="database" class="menublock"><a class="menulink" href="./database.php"></a>
+						</div>
+						<div id="projects" class="menublock"><a class="menulink" href="./projects.php"></a>
+						</div>
+						<div id="gallery" class="menublock"><a class="menulink" href="./gallery.php"></a>
+						</div>
+						<div id="links" class="menublock"><a class="menulink" href="./links.php"></a>
+						</div>
+						<div id="contact" class="menublock"><a class="menulink" href="./contact.php"></a>
+						</div>
+					</div>
+					<div class="clear">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+
+</html>

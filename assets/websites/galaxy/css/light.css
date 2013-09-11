@@ -1,0 +1,41 @@
+﻿#loading {
+	color: black;
+}
+#symbol {
+	z-index: 8;
+}
+#leftcover {
+	background: #FFFFFF;
+}
+/* Header */
+#header-left {
+	background: url('./../images/light/top-bg.png');
+}
+#home {
+	background: url('./../images/light/home.png');
+}
+#competitions {
+	background: url('./../images/light/competitions.png');
+}
+#teams {
+	background: url('./../images/light/teams.png');
+}
+#schedule {
+	background: url('./../images/light/schedule.png');
+}
+#contacts {
+	background: url('./../images/light/contacts.png');
+}
+#results {
+	background: url('./../images/light/results.png');
+}
+#logo {
+	background: url('./../images/light/logo.png');
+}
+#header-right {
+	background: url('./../images/light/top-bg.png');
+}
+/* Footer */
+#footer {
+	background: url('./../images/light/footer.png');
+}

@@ -1,0 +1,103 @@
+﻿body {
+	background: #000000 url('./../images/bg.jpg') no-repeat fixed center top;
+	margin: 0 0 0 0;
+	color: #DDDDDD;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#header-wrapper {
+	background: url('./../images/header.png');
+	height: 100px;
+	display: block;
+}
+#header {
+	width: 960px;
+	margin: auto;
+	padding-right: 10px;
+}
+#eots-logo {
+	width: 289px;
+	height: 54px;
+	display: block;
+	float: left;
+	background: url('./../images/eots-logo.png') no-repeat 0 25px;
+	padding: 25px 0 0 0;
+}
+#eots-logo-link {
+	display: block;
+	width: 100%;
+	height: 100%;
+	outline: none;
+}
+#astro-logo {
+	float: right;
+	font-weight: bold;
+	font-size: large;
+	text-align: right;
+	padding: 25px 0 0 0;
+}
+#astro-logo-link, #astro-logo-link:hover, #astro-logo-link:visited {
+	text-decoration: none;
+	color: #bbbbbb;
+	cursor: pointer;
+	outline: none;
+}
+#header-right {
+	float: right;
+	display: block;
+}
+#menu {
+	float: right;
+	margin: 10px 0 0 0;
+}
+a {
+	color: #DDDDDD;
+	text-decoration: none;
+}
+a:hover {
+	color: #BBBBBB;
+}
+a.menulink {
+	color: #DDDDDD;
+	text-decoration: none;
+	margin: 0 0 0 20px;
+	outline: none;
+}
+a.menulink:hover {
+	color: #BBBBBB;
+}
+div.clear {
+	clear: both;
+}
+#body-wrapper {
+	margin-top: 20px;
+}
+#body {
+	background: url('./../images/bodybg.png');
+	width: 940px;
+	margin: auto;
+	padding: 10px;
+}
+#body-bot {
+	background: url('./../images/body-bot.png');
+	height: 10px;
+	display: block;
+	width: 960px;
+	margin: auto;
+}
+#footer-wrapper {
+	width: 949px;
+	height: 27px;
+	display: block;
+	margin: auto;
+	background: url('./../images/footer.png');
+	margin-top: 20px;
+	padding: 10px;
+	font-size: small;
+}
+#cslink {
+	display: block;
+	float: right;
+	width: 200px;
+	height: 20px;
+	outline: none;
+}
