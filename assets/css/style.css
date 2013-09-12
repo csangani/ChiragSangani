@@ -48,7 +48,7 @@ a {
 .Code {
     font-family: "Consolas", "Courier New", monospace;
     padding: 10px;
-    float: left;
+    text-align: left;
 }
 
 .XXXL {
@@ -550,32 +550,33 @@ a.White.Button:hover * {
 }
 
 .Left {
-    float:left
+    float: left;
 }
 
 .Right {
-    float:right
+    float: right;
 }
 
 @media (max-width:62.86em) {
     .Left, .Right {
-        float:left;
+        float: left;
     }
 }
 
 .DLMC {
-    text-align:left;
+    text-align: left;
 }
 
 .DRMC {
-    text-align:right;
+    text-align: right;
 }
 
 @media (max-width:62.86em) {
     .DLMC, .DRMC {
-        text-align:center;
+        text-align: center;
     }
 }
+
 .ContentTop {
     padding-top: 1em;
 }
@@ -609,18 +610,18 @@ a.White.Button:hover * {
 }
 
 #CS5-Footer-Copyright {
-    display:inline-block;
-    vertical-align:middle;
+    display: inline-block;
+    vertical-align: middle;
     padding: 1em 0 1em 0;
     color: #fff;
     text-align: right;
 }
 
 #CS5-Footer-Menu {
-    display:inline-block;
+    display: inline-block;
     margin: 1em 1.5em 0 1.5em;
-    padding:0;
-    vertical-align:middle;
+    padding: 0;
+    vertical-align: middle;
     list-style: none;
     text-transform: uppercase;
 }
@@ -647,4 +648,10 @@ a.White.Button:hover * {
 
 .statcounter {
     visibility: hidden;
+}
+
+@media (min-width:62.86em) {
+    .DesktopOnlyFixedWidth {
+        width: 400px;
+    }
 }

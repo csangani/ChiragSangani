@@ -1,17 +1,6 @@
 <div class="ContentWrapper MargueriteBackground ContentTop">
     <div class="Content clearfix">
-        <div class="Split">
-            <div class="DesktopOnly" style="height:9em"></div>
-            <img class="ContentImage" src="<?= $assetRoot ?>images/marguerite/title.png" style="margin-top:2em">
-            <p class="M">
-                The must-have transit app for Stanford's Marguerite Shuttle on Windows Phone.
-            </p>
-            <a href="http://bit.ly/wp-marguerite" class="Button White" style="padding:0">
-                <div style="padding:1em 0 1em 0" class="Marguerite SemiBold XXS">Get it now for</div>
-                <div style="width:175px;height:25px;background:url('<?= $assetRoot ?>images/wp8.png') center center no-repeat;display:block"></div>
-            </a>
-        </div>
-        <div class="Split">
+        <div class="Split Right Center">
             <script src="<?= $assetRoot ?>javascript/jquery.ui.js" type="text/javascript"></script>
             <script src="<?= $assetRoot ?>javascript/jquery.mousewheel.js" type="text/javascript"></script>
             <script src="<?= $assetRoot ?>javascript/mosaic.js" type="text/javascript"></script>
@@ -91,14 +80,22 @@
                 </div>
             </div>
         </div>
+        <div class="Split Left">
+            <div class="DesktopOnly" style="height:9em"></div>
+            <img class="ContentImage" src="<?= $assetRoot ?>images/marguerite/title.png" style="margin-top:2em">
+            <p class="M">
+                The must-have transit app for Stanford's Marguerite Shuttle on Windows Phone.
+            </p>
+            <a href="http://bit.ly/wp-marguerite" class="Button White" style="padding:0">
+                <div style="padding:1em 0 1em 0" class="Marguerite SemiBold XXS">Get it now for</div>
+                <div style="width:175px;height:25px;background:url('<?= $assetRoot ?>images/wp8.png') center center no-repeat;display:block"></div>
+            </a>
+        </div>
     </div>
 </div>
 <div class="ContentWrapper YellowBackground" style="overflow:hidden">
     <div class="Content">
-        <div class="Split" style="margin-bottom:-1em;">
-            <div class="ContentImage" style="height:533px;background:url('<?= $assetRoot ?>images/marguerite/nearbydepartures.png') center top no-repeat"></div>
-        </div>
-        <div class="Split">
+        <div class="Split Right">
             <p class="XL">
                 Find nearby departures.
             </p>
@@ -106,16 +103,19 @@
                 Marguerite knows where you are, and finds the nearest departures and stops around you.
             </p>
         </div>
+        <div class="Split Left Center" style="margin-bottom:-1em">
+            <img class="ContentImage" src="<?= $assetRoot ?>images/marguerite/nearbydepartures.png">
+        </div>
     </div>
     <div style="clear:both"></div>
 </div>
 <div class="ContentWrapper DarkBackground">
     <div class="Content clearfix">
-        <div class="Split">
-            <div class="Split">
-                <div class="ContentImage" style="height:417px;background:url('<?= $assetRoot ?>images/marguerite/savefavorites.png') center center no-repeat"></div>
+        <div class="Split Left">
+            <div class="Split Left">
+                <img class="ContentImage" src="<?= $assetRoot ?>images/marguerite/savefavorites.png">
             </div>
-            <div class="Split">
+            <div class="Split Right">
                 <div class="XL" style="padding:10px">
                     Save favorites.
                 </div>
@@ -124,11 +124,11 @@
                 </p>          
             </div>
         </div>
-        <div class="Split">
-            <div class="Split">
-                <div class="ContentImage" style="height:417px;background:url('<?= $assetRoot ?>images/marguerite/planjourney.png') center center no-repeat"></div>
+        <div class="Split Right">
+            <div class="Split Left">
+                <img class="ContentImage" src="<?= $assetRoot ?>images/marguerite/planjourney.png">
             </div>
-            <div class="Split">
+            <div class="Split Right">
                 <div class="XL" style="padding:10px">
                     Plan your journey.
                 </div>
@@ -142,7 +142,10 @@
 </div>
 <div class="ContentWrapper WhiteBackground">
     <div class="Content clearfix">
-        <div class="Split">
+        <div class="Split Right Center" style="margin-top:0">
+            <img class="ContentImage" src="<?= $assetRoot ?>images/marguerite/livemap.png">
+        </div>
+        <div class="Split Left">
             <p class="XL">
                 See bus locations live.
             </p>
@@ -150,17 +153,14 @@
                 View a live map that shows the position of each shuttle in real time.
             </p>
         </div>
-        <div class="Split" style="margin-top:0">
-            <div class="ContentImage" style="height:533px; background:url('<?= $assetRoot ?>images/marguerite/livemap.png') center bottom no-repeat"></div>
-        </div>
     </div>
 </div>
 <div class="ContentWrapper DarkGrayBackground">
     <div class="Content clearfix">
-        <div class="Split">
-            <div class="ContentImage" style="height:667px; background:url('<?= $assetRoot ?>images/marguerite/navigate.png') center center no-repeat"></div>
+        <div class="Split Left Center">
+            <img class="ContentImage" src="<?= $assetRoot ?>images/marguerite/navigate.png">
         </div>
-        <div class="Split">
+        <div class="Split Right">
             <p class="XL">
                 Navigate your way.
             </p>
@@ -175,11 +175,13 @@
         <div class="Full">
             <div class="XXL SemiLight">Get it now.</div>
         </div>
-        <div class="Split">
-            <div class="ContentImage" style="height:200px;background:url('<?= $assetRoot ?>images/marguerite-qr.png') center center no-repeat"></div>
+        <div class="Split Center Left">
+            <img class="ContentImage" src="<?= $assetRoot ?>images/marguerite/marguerite-qr.png">
         </div>
-        <div class="Split">
-            <a class="ContentImage" style="height:200px;background:url('<?= $assetRoot ?>images/wp8appstore.png') center center no-repeat" href="http://bit.ly/wp-marguerite"></a>
+        <div class="Split Center Right">
+            <a href="http://bit.ly/wp-marguerite">
+                <img class="ContentImage" src="<?= $assetRoot ?>images/wp8appstore.png" style="margin:55px 0">
+            </a>
         </div>
     </div>
 </div>

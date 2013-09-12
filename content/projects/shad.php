@@ -24,21 +24,21 @@
         </div>
     </div>
     <div class="Content clearfix">
-        <div class="Split" style="text-align:center">
-            <img class="ContentImage" style="height:308px;width:450px" src="<?= $assetRoot ?>images/shad/rigidbody.gif" alt="Rigid body dynamics">
+        <div class="Split Left Center">
+            <img class="ContentImage" src="<?= $assetRoot ?>images/shad/rigidbody.gif" alt="Rigid body dynamics">
         </div>
-        <div class="Split">
+        <div class="Split Right">
             <div class="XL">Rigid Body</div>
             <p class="S">Realistic rigid-body dynamics are made possible thanks to the BULLET&trade; open-source physics engine.</p>
         </div>
     </div>
     <div class="Content clearfix">
-        <div class="Split">
+        <div class="Split Right Center">
+            <img class="ContentImage" src="<?= $assetRoot ?>images/shad/cloth.gif" alt="Cloth physics">
+        </div>
+        <div class="Split Left">
             <div class="XL">Cloth</div>
             <p class="S">Shad features custom cloth simulation. Each cloth is simulated as a particle grid constrained by multiple layers of damped harmonic oscillators. Gravity, aerodynamic drag and wind allow the cloth to behave in a realistic manner.</p>
-        </div>
-        <div class="Split" style="text-align:center">
-            <img class="ContentImage" style="height:308px;width:450px" src="<?= $assetRoot ?>images/shad/cloth.gif" alt="Cloth physics">
         </div>
     </div>
 </div>
@@ -51,29 +51,29 @@
         </div>
     </div>
     <div class="Content clearfix">
-        <div class="Split" style="text-align:center">
-            <img class="ContentImage" style="height:253px;width:450px" src="<?= $assetRoot ?>images/shad/motionblur.gif" alt="Motion blur and bloom">
+        <div class="Split Left Center">
+            <img class="ContentImage" src="<?= $assetRoot ?>images/shad/motionblur.gif" alt="Motion blur and bloom">
         </div>
-        <div class="Split">
+        <div class="Split Right">
             <div class="XL">Motion Blur and Bloom</div>
             <p class="S">Bloom lends a soft glow effect to lights, recreating a neon effect. Meanwhile, teleporting creates a psychedelic distorting effect, implemented using motion blur.</p>
         </div>
     </div>
     <div class="Content clearfix">
-        <div class="Split">
+        <div class="Split Right Center">
+            <img class="ContentImage" src="<?= $assetRoot ?>images/shad/lightning.gif" alt="Procedurally generated lightning">
+        </div>
+        <div class="Split Left">
             <div class="XL">Procedural Lightning</div>
             <p class="S">Shad features lightning as an obstacle. Each lightning bolt is generated procedurally and is random, so that it looks different every time.</p>
         </div>
-        <div class="Split" style="text-align:center">
-            <img class="ContentImage" style="height:363px;width:450px" src="<?= $assetRoot ?>images/shad/lightning.gif" alt="Procedurally generated lightning">
-        </div>
     </div>
 </div>
-<div class="ContentWrapper ShadBackground">
+<div class="ContentWrapper DarkBackground" style="background-image:url('<?= $assetRoot ?>images/shad/background.png">
     <div class="Content clearfix">
         <div class="Full">
-            <div class="XXL SemiLight">Get it now.</div>
-            <a style="width:200px;height:40px;display:inline-block;margin:60px 0;background:url('<?= $assetRoot ?>images/github.png') center center no-repeat" href="https://github.com/csangani/Shad"></a>
+            <p class="XXL SemiLight">Get it now.</p>
+            <p class="Center"><a href="https://github.com/csangani/Shad"><img class="ContentImage" src="<?= $assetRoot ?>images/github.png"></a></p>
         </div>
     </div>
 </div>

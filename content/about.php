@@ -131,10 +131,10 @@
 <div class="ContentWrapper">
     <div class="Content clearfix">
         <div class="Split Left DRMC">
-            <a class="DLMC" style="display:inline-block;text-decoration:none" href="http://www.facebook.com/chirag.sangani">
+            <a class="DLMC DesktopOnlyFixedWidth" style="display:inline-block;text-decoration:none" href="http://www.facebook.com/chirag.sangani">
                 <div>
                     <div style="display:inline-block;vertical-align:middle;width:95px;height:95px;background:url('<?= $assetRoot ?>images/facebook.png')center center no-repeat"></div>
-                    <div style="display:inline-block;vertical-align:middle;padding:0 2em 0 1em">
+                    <div style="display:inline-block;vertical-align:middle;padding:1em 2em 1em 1em">
                         <div class="L">Find me on Facebook</div>
                         <div class="M">/chirag.sangani</div>
                     </div>
@@ -142,10 +142,10 @@
             </a>
         </div>
         <div class="Split Right DLMC">
-            <a class="DLMC" style="display:inline-block;text-decoration:none" href="http://www.linkedin.com/in/chiragsangani">
+            <a class="DLMC DesktopOnlyFixedWidth" style="display:inline-block;text-decoration:none" href="http://www.linkedin.com/in/chiragsangani">
                 <div>
                     <div style="display:inline-block;vertical-align:middle;width:95px;height:95px;background:url('<?= $assetRoot ?>images/linkedin.png')center center no-repeat"></div>
-                    <div style="display:inline-block;vertical-align:middle;padding:0 2em 0 1em">
+                    <div style="display:inline-block;vertical-align:middle;padding:1em 2em 1em 1em">
                     <div class="L">Find me on LinkedIn</div>
                     <div class="M">/in/chiragsangani</div>
                     </div>
@@ -157,10 +157,10 @@
 <div class="ContentWrapper">
     <div class="Content clearfix">
         <div class="Split Left DRMC">
-            <a class="DLMC" style="display:inline-block;text-decoration:none" href="https://twitter.com/chiragsangani">
+            <a class="DLMC DesktopOnlyFixedWidth" style="display:inline-block;text-decoration:none" href="https://twitter.com/chiragsangani">
                 <div>
                     <div style="display:inline-block;vertical-align:middle;width:95px;height:95px;background:url('<?= $assetRoot ?>images/twitter.png')center center no-repeat"></div>
-                    <div style="display:inline-block;vertical-align:middle;padding:0 2em 0 1em">
+                    <div style="display:inline-block;vertical-align:middle;padding:1em 2em 1em 1em">
                     <div class="L">Follow me on Twitter</div>
                     <div class="M">@chiragsangani</div>
                     </div>
@@ -168,10 +168,10 @@
             </a>
         </div>
         <div class="Split Right DLMC">
-            <a class="DLMC" style="display:inline-block;text-decoration:none" href="<?= $assetRoot ?>PDF/Resume-ChiragSangani.pdf">
+            <a class="DLMC DesktopOnlyFixedWidth" style="display:inline-block;text-decoration:none" href="<?= $assetRoot ?>PDF/Resume-ChiragSangani.pdf">
                 <div>
                     <div style="display:inline-block;vertical-align:middle;width:95px;height:95px;background:url('<?= $assetRoot ?>images/resume.png')center center no-repeat"></div>
-                    <div style="display:inline-block;vertical-align:middle;padding:0 2em 0 1em">
+                    <div style="display:inline-block;vertical-align:middle;padding:1em 2em 1em 1em">
                     <div class="L">See my Resume</div>
                     </div>
                 </div>

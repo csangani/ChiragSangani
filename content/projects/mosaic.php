@@ -4,8 +4,8 @@
             <div class="XXL SemiBold AllCaps">Mosaic</div>
             <p class="M">A dynamic and interactive JavaScript gallery.</p>
             <div style="display:inline-block;position:relative;width:953px;height:603px">
-                <div style="width:953px;height:603px;z-index:100;pointer-events:none;background:url('<?= $assetRoot ?>images/MosaicLargeGloss.png') top left no-repeat;position:absolute"></div>
-                <div id="MosaicFeaturedTarget" style="width:867px;height:507px;padding:28px 63px;background:url('<?= $assetRoot ?>images/MosaicLarge.png') top left no-repeat"></div>
+                <div style="width:953px;height:603px;z-index:100;pointer-events:none;background:url('<?= $assetRoot ?>images/mosaic/tabletshadow.png') top left no-repeat;position:absolute"></div>
+                <div id="MosaicFeaturedTarget" style="width:867px;height:507px;padding:28px 63px;background:url('<?= $assetRoot ?>images/mosaic/tabletlarge.png') top left no-repeat"></div>
             </div>
         </div>
     </div>
@@ -229,7 +229,7 @@
 </div>
 <div class="ContentWrapper LightGrayBackground">
     <div class="Content clearfix">
-        <div class="Split">
+        <div class="Split Left Center">
             <div style="display:inline-block">
                 <div id="MosaicDynamicTarget">
                     <div class="mosaic-cell"><div style="background:#AEDFD6;width:100%;height:100%"></div></div>
@@ -274,7 +274,7 @@
                 </script>
             </div>
         </div>
-        <div class="Split">
+        <div class="Split Right">
             <div class="XL">Mosaic is Dynamic.</div>
             <p class="M">A Mosaic grid is different every time. Just lay your content in cells, and Mosaic will do the rest:</p>
             <pre class="Code WhiteBackground S" style="text-align:left">
@@ -295,29 +295,7 @@
 </div>
 <div class="ContentWrapper WhiteBackground">
     <div class="Content clearfix">
-        <div class="Split">
-            <div class="XL">Mosaic is Interactive.</div>
-            <p class="M">Mosaic features an interactive image gallery.</p>
-            <pre class="Code LightGrayBackground S" style="text-align:left">
-&lt;div id=&quot;Target&quot;&gt;
-    &lt;div class=&quot;mosaic-cell&quot;&gt;
-        &lt;img class=&quot;mosaic-gallery-image&quot;
-             src=&quot;your_image_thumbnail.jpg&quot;&gt;
-        &lt;a class=&quot;mosaic-gallery-image-hd&quot; 
-           href=&quot;your_image.jpg&quot;&gt;&lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-            
-&lt;script type=&quot;text/javascript&quot;&gt;
-    $(document).ready(function() {
-        $('#Target')
-            .mosaic()
-            .mosaicgallery();
-    });
-&lt;/script&gt;</pre>
-
-        </div>
-        <div class="Split">
+        <div class="Split Right">
             <div style="display:inline-block">
                 <div id="MosaicInteractiveTarget">
                     <div class="mosaic-cell">
@@ -455,6 +433,28 @@
                     });
                 </script>
             </div>
+        </div>
+        <div class="Split Left">
+            <div class="XL">Mosaic is Interactive.</div>
+            <p class="M">Mosaic features an interactive image gallery.</p>
+            <pre class="Code LightGrayBackground S" style="text-align:left">
+&lt;div id=&quot;Target&quot;&gt;
+    &lt;div class=&quot;mosaic-cell&quot;&gt;
+        &lt;img class=&quot;mosaic-gallery-image&quot;
+             src=&quot;your_image_thumbnail.jpg&quot;&gt;
+        &lt;a class=&quot;mosaic-gallery-image-hd&quot; 
+           href=&quot;your_image.jpg&quot;&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+            
+&lt;script type=&quot;text/javascript&quot;&gt;
+    $(document).ready(function() {
+        $('#Target')
+            .mosaic()
+            .mosaicgallery();
+    });
+&lt;/script&gt;</pre>
+
         </div>
     </div>
 </div>
@@ -614,8 +614,8 @@
 <div class="ContentWrapper LightGrayBackground">
     <div class="Content clearfix">
         <div class="Full">
-            <div class="XXL SemiLight">Get it now.</div>
-            <a style="width:200px;height:40px;display:inline-block;margin:60px 0;background:url('<?= $assetRoot ?>images/github-dark.png') center center no-repeat" href="https://github.com/csangani/Mosaic"></a>
+            <p class="XXL SemiLight">Get it now.</p>
+            <p class="Center"><a href="https://github.com/csangani/Mosaic"><img class="ContentImage" src="<?= $assetRoot ?>images/github-dark.png"></a></p>
         </div>
     </div>
 </div>

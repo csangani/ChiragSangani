@@ -53,46 +53,46 @@ $debug = (isset($_GET["debug"])) ? true : false;
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <meta name="viewport" content="width=device-width; initial-scale=1.0">
-        <meta name="description" content="I'm a graduate student in the Silicon valley who is fascinated by technology and design."/>
-        <meta name="keywords" content="chirag,sangani,marguerite,stanford,adenzio,andromorr,avr,wizard,shad,inmap,mosaic"/>
-        <meta name="author" content="Chirag Sangani"/>
-        <meta name="image_src" content="http://www.chiragsangani.com<?= $assetRoot ?>images/me.png"/>
-        <meta charset="utf-8" />
-        <title>Chirag Sangani</title>
-        <link href="<?= $assetRoot ?>css/F.css" type="text/css" rel="stylesheet" />
-        <link href="<?= $assetRoot ?>css/style.css" type="text/css" rel="stylesheet" />
-        <script type="text/javascript" src="<?= $assetRoot ?>javascript/jquery.js"></script>
-        <script type="text/javascript" src="<?= $assetRoot ?>javascript/site.js"></script>
-        <style type="text/css">
-            .clearfix:after {
-                content: ".";
-                display: block;
-                height: 0;
-                clear: both;
-                visibility: hidden;
-            }
-        </style>
-        <!--[if lte IE 7]>
-        <style type="text/css">
-          .clearfix {
-            zoom: 1;     /* triggers hasLayout */
-            }  /* Only IE can see inside the conditional comment
-            and read this CSS rule. Don't ever use a normal HTML
-            comment inside the CC or it will close prematurely. */
-        </style>
-        <![endif]-->
+        <meta name="viewport" content="width=device-width; initial-scale=0.8">
+            <meta name="description" content="I'm a graduate student in the Silicon valley who is fascinated by technology and design."/>
+            <meta name="keywords" content="chirag,sangani,marguerite,stanford,adenzio,andromorr,avr,wizard,shad,inmap,mosaic"/>
+            <meta name="author" content="Chirag Sangani"/>
+            <meta name="image_src" content="http://www.chiragsangani.com<?= $assetRoot ?>images/me.png"/>
+            <meta charset="utf-8" />
+            <title>Chirag Sangani</title>
+            <link href="<?= $assetRoot ?>css/F.css" type="text/css" rel="stylesheet" />
+            <link href="<?= $assetRoot ?>css/style.css" type="text/css" rel="stylesheet" />
+            <script type="text/javascript" src="<?= $assetRoot ?>javascript/jquery.js"></script>
+            <script type="text/javascript" src="<?= $assetRoot ?>javascript/site.js"></script>
+            <style type="text/css">
+                .clearfix:after {
+                    content: ".";
+                    display: block;
+                    height: 0;
+                    clear: both;
+                    visibility: hidden;
+                }
+            </style>
+            <!--[if lte IE 7]>
+            <style type="text/css">
+              .clearfix {
+                zoom: 1;     /* triggers hasLayout */
+                }  /* Only IE can see inside the conditional comment
+                and read this CSS rule. Don't ever use a normal HTML
+                comment inside the CC or it will close prematurely. */
+            </style>
+            <![endif]-->
 
-        <script type="text/javascript">
-            $(document).ready(function() {
+            <script type="text/javascript">
+                $(document).ready(function() {
 <?php if (isset($FirstLevel)) { ?>
-                    $('#<?= $FirstLevel ?>').addClass('selected');
+                        $('#<?= $FirstLevel ?>').addClass('selected');
 <?php } ?>
 <?php if (isset($SecondLevel)) { ?>
-                    $('#<?= $FirstLevel . "-" . $SecondLevel ?>').addClass('selected');
+                        $('#<?= $FirstLevel . "-" . $SecondLevel ?>').addClass('selected');
 <?php } ?>
-            });
-        </script>
+                });
+            </script>
 
     </head>
     <body>

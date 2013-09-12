@@ -1,24 +1,24 @@
 <div class="ContentWrapper MargueriteBackground ContentTop">
     <div class="Content clearfix">
-        <div class="Split Clear">
-            <br /><br />
+        <div class="Split Right Center">
+            <img class="ContentImage" src="<?= $assetRoot ?>images/marguerite/two.png" alt="Marguerite">
+        </div>
+        <div class="Split Left Clear">
+            <span class="DesktopOnly"><br /><br /></span>
             <img class="ContentImage" src="<?= $assetRoot ?>images/marguerite/title.png" alt="Marguerite">
             <p class="S">
                 The must-have transit app for Stanford's Marguerite Shuttle on Windows Phone.
             </p>
             <a class="Button MargueriteButton XXS SemiBold" href="<?= $indexRoot ?>projects/marguerite">See More</a>
         </div>
-        <div class="Split Center">
-            <img class="ContentImage" src="<?= $assetRoot ?>images/marguerite/two.png" alt="Marguerite">
-        </div>
     </div>
 </div>
 <div class="ContentWrapper DarkBackground" style="background-image:url('<?= $assetRoot ?>images/shad/background.png">
     <div class="Content clearfix">
-        <div class="Split Center">
+        <div class="Split Left Center">
             <img class="ContentImage" src="<?= $assetRoot ?>images/shad/tablet.png" alt="Shad">
         </div>
-        <div class="Split">
+        <div class="Split Right">
             <div class="XL">Shad</div>
             <p class="S">
                 Shad is a 3D video game with platform-style gameplay, complex rigid-body
@@ -29,60 +29,53 @@
     </div>
 </div>
 <div class="ContentWrapper YellowBackground">
-    <script src="<?= $assetRoot ?>javascript/jquery.ui.js" type="text/javascript"></script>
-    <script src="<?= $assetRoot ?>javascript/jquery.mousewheel.js" type="text/javascript"></script>
-    <script src="<?= $assetRoot ?>javascript/mosaic.js" type="text/javascript"></script>
-    <script src="<?= $assetRoot ?>javascript/mosaic.gallery.js" type="text/javascript"></script>
-    <link href="<?= $assetRoot ?>css/mosaic.css" rel="stylesheet" type="text/css">
-    <link href="<?= $assetRoot ?>css/mosaic.style.css" rel="stylesheet" type="text/css">
-    <link href="<?= $assetRoot ?>css/mosaic.gallery.css" rel="stylesheet" type="text/css">
-    <link href="<?= $assetRoot ?>css/mosaic.gallery.style.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('#mosaic-grid-target').mosaic({
-                source: $('#mosaic-grid-source'),
-                width: 388,
-                height: 198,
-                min_rows: 2,
-                max_rows: 3,
-                columns: 2,
-                speed: 500,
-                interval: 2000,
-                spacing: 1,
-                remove_source: true,
-                alternate_columns: true,
-                orientation: 'horizontal',
-                easing: 'easeInOutQuart',
-                pause_animation: true,
-                autoplay: true,
-                loop_type: 'reverse',
-                random_columns: true,
-                navigation_buttons: 'never'
-            }).mosaicgallery({
-                scale_image: true,
-                overlay_style: 'top',
-                on_click: 'lightbox',
-                overlay_animation_speed: 250,
-                lightbox_overlay: true,
-                lightbox_overlay_style: 'right',
-                lightbox_transition_speed: 250,
-                error_image: '<?= $assetRoot ?>images/error.gif',
-                error_image_hd: '<?= $assetRoot ?>images/error-hd.gif',
-                blank_image: '<?= $assetRoot ?>images/blank.gif',
-                popup_overlay: true,
-                overlay_title: true
-            });
-        });
-    </script>
     <div class="Content clearfix">
-        <div class="Split">
-            <div class="XL">Mosaic</div>
-            <p class="S">
-                Mosaic is a flexible javascript framework for creating dynamic and interactive content galleries.
-            </p>
-            <a class="Button CrimsonBackground XXS SemiBold" href="<?= $indexRoot ?>projects/mosaic">See More</a>
-        </div>
-        <div class="Split Center">
+        <div class="Split Right Center">
+            <script src="<?= $assetRoot ?>javascript/jquery.ui.js" type="text/javascript"></script>
+            <script src="<?= $assetRoot ?>javascript/jquery.mousewheel.js" type="text/javascript"></script>
+            <script src="<?= $assetRoot ?>javascript/mosaic.js" type="text/javascript"></script>
+            <script src="<?= $assetRoot ?>javascript/mosaic.gallery.js" type="text/javascript"></script>
+            <link href="<?= $assetRoot ?>css/mosaic.css" rel="stylesheet" type="text/css">
+            <link href="<?= $assetRoot ?>css/mosaic.style.css" rel="stylesheet" type="text/css">
+            <link href="<?= $assetRoot ?>css/mosaic.gallery.css" rel="stylesheet" type="text/css">
+            <link href="<?= $assetRoot ?>css/mosaic.gallery.style.css" rel="stylesheet" type="text/css">
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $('#mosaic-grid-target').mosaic({
+                        source: $('#mosaic-grid-source'),
+                        width: 388,
+                        height: 198,
+                        min_rows: 2,
+                        max_rows: 3,
+                        columns: 2,
+                        speed: 500,
+                        interval: 2000,
+                        spacing: 1,
+                        remove_source: true,
+                        alternate_columns: true,
+                        orientation: 'horizontal',
+                        easing: 'easeInOutQuart',
+                        pause_animation: true,
+                        autoplay: true,
+                        loop_type: 'reverse',
+                        random_columns: true,
+                        navigation_buttons: 'never'
+                    }).mosaicgallery({
+                        scale_image: true,
+                        overlay_style: 'top',
+                        on_click: 'lightbox',
+                        overlay_animation_speed: 250,
+                        lightbox_overlay: true,
+                        lightbox_overlay_style: 'right',
+                        lightbox_transition_speed: 250,
+                        error_image: '<?= $assetRoot ?>images/error.gif',
+                        error_image_hd: '<?= $assetRoot ?>images/error-hd.gif',
+                        blank_image: '<?= $assetRoot ?>images/blank.gif',
+                        popup_overlay: true,
+                        overlay_title: true
+                    });
+                });
+            </script>
             <div style="height:232px;position:relative;width:393px;padding:21px 0 0 7px;margin:0 -2em 0 -2em;display:inline-block;background:url('<?= $assetRoot ?>images/mosaic/tablet.png')">
                 <div>
                     <div id="mosaic-grid-target"></div>
@@ -215,6 +208,13 @@
                 </div>
             </div>
         </div>
+        <div class="Split Left">
+            <div class="XL">Mosaic</div>
+            <p class="S">
+                Mosaic is a flexible javascript framework for creating dynamic and interactive content galleries.
+            </p>
+            <a class="Button CrimsonBackground XXS SemiBold" href="<?= $indexRoot ?>projects/mosaic">See More</a>
+        </div>
     </div>
 </div>
 <div class="ContentWrapper WhiteBackground">
@@ -229,10 +229,10 @@
 </div>
 <div class="ContentWrapper LightGrayBackground">
     <div class="Content clearfix">
-        <div class="Split Center">
+        <div class="Split Left Center">
             <img class="ContentImage" src="<?= $assetRoot ?>images/avrwizard/project.png" alt="AVR Wizard">
         </div>
-        <div class="Split">
+        <div class="Split Right">
             <div class="XL">AVR Wizard</div>
             <p class="S">AVR Wizard is an open-source Windows software for generating configuration code for Atmel&apos;s AVR 8-bit ATmega micro-controllers.</p>
             <a class="Button CreamBackground XXS SemiBold" href="<?= $indexRoot ?>projects/avrwizard">See More</a>
@@ -250,13 +250,13 @@
     </div>
 </div>
 <?php if ($debug) { ?>
-<div class="ContentWrapper YellowBackground">
-    <div class="Content clearfix">
-        <div class="Split">
-            <div class="XL">SDLX</div>
-            <p class="S">This project comprises of a Verilog implementation of an SDLX processor, and a lab manual for an undergraduate course on computer organization and systems.</p>
+    <div class="ContentWrapper YellowBackground">
+        <div class="Content clearfix">
+            <div class="Split">
+                <div class="XL">SDLX</div>
+                <p class="S">This project comprises of a Verilog implementation of an SDLX processor, and a lab manual for an undergraduate course on computer organization and systems.</p>
+            </div>
+            <div class="Split"></div>
         </div>
-        <div class="Split"></div>
     </div>
-</div>
 <?php } ?>
