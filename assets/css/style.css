@@ -617,6 +617,12 @@ a.White.Button:hover * {
     text-align: right;
 }
 
+@media (max-width:62.86em) {
+    #CS5-Footer-Copyright {
+        text-align:center
+    }
+}
+
 #CS5-Footer-Menu {
     display: inline-block;
     margin: 1em 1.5em 0 1.5em;

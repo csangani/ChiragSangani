@@ -1,8 +1,5 @@
 <div class="ContentWrapper MargueriteBackground ContentTop">
     <div class="Content clearfix">
-        <div class="Split Right Center">
-            <img class="ContentImage" src="<?= $assetRoot ?>images/marguerite/two.png" alt="Marguerite">
-        </div>
         <div class="Split Left Clear">
             <span class="DesktopOnly"><br /><br /></span>
             <img class="ContentImage" src="<?= $assetRoot ?>images/marguerite/title.png" alt="Marguerite">
@@ -10,6 +7,9 @@
                 The must-have transit app for Stanford's Marguerite Shuttle on Windows Phone.
             </p>
             <a class="Button MargueriteButton XXS SemiBold" href="<?= $indexRoot ?>projects/marguerite">See More</a>
+        </div>
+        <div class="Split Right Center">
+            <img class="ContentImage" src="<?= $assetRoot ?>images/marguerite/two.png" alt="Marguerite">
         </div>
     </div>
 </div>
